@@ -20,7 +20,7 @@ const init = async () => {
     tlsSocket.destroy()
   })
 
-  server.listen(8443)
+  server.listen(3000)
 }
 
 init().catch(console.error);
